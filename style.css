@@ -4,6 +4,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 h1{
     margin: 50px auto 0 auto;
@@ -83,7 +84,6 @@ hr{
     margin: 100px auto 100px auto;
     line-height: 2;
     /* text-align: left; */
-    /* line-height: 2; */
 }
 
 .btn{
@@ -92,8 +92,14 @@ hr{
     border-radius: 5px;
     padding: 4px;
     color: #EAF6F6;
-    /* font-weight: bold; */
+    font-weight: bold;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    background-color: #62d9af;
+    border: 2px solid #62d9af;
 }
 
 .bottom-container{
@@ -106,6 +112,10 @@ hr{
     color: #11999E;
     text-decoration: none;
     margin-right: 60px;
+}
+
+.footer-link:hover{
+    color: #62d9af;
 }
 /****************************************Id Selector************************************************/
 
@@ -139,3 +149,8 @@ hr{
     margin-bottom: 100px;
 }
 
+#contact-txt{
+    width: 40%;
+    margin: 40px auto 60px;
+    line-height: 2;
+}
