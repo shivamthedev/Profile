@@ -18,13 +18,13 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
+local_css("style.css")
 
 # -----Load Assets-----
 lottie_gamedev = load_lottieurl(
     "https://assets3.lottiefiles.com/packages/lf20_u9NulgbvAu.json")
-image = Image.open("Images/image.png")
-image2 = Image.open("Images/Image2.png")
+image = Image.open("image.png")
+image2 = Image.open("Image2.png")
 
 #  -----Header Section-----
 with st.container():
